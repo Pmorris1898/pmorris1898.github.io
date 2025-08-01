@@ -8,104 +8,123 @@
     <meta name="keywords" content="Peter Morris, QA Analyst, GMP, GLP, Quality Assurance">
     <meta name="author" content="Peter Morris">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body { font-family: Arial, sans-serif; background-color: #f8f9fa; color: #212529; }
+      h2 { margin-top: 40px; }
+      section { padding-top: 30px; padding-bottom: 30px; }
+      ul { list-style-type: disc; padding-left: 1.5rem; }
+      footer { background-color: #343a40; color: white; padding: 20px 0; margin-top: 40px; }
+      .navbar { margin-bottom: 30px; }
+    </style>
   </head>
   <body>
     <header class="header">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Peter Morris</a>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
+        <div class="container">
+          <a class="navbar-brand" href="#">Peter Morris</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
 
-    <section id="about" class="container mt-5">
-      <h2>About Me</h2>
-      <p>Quality Assurance professional with 5+ years of laboratory and data review experience in regulated environments. Proven track record in GMP/GLP compliance, internal audits, SOP development, and regulatory data submission. Adept in using LIMS, data visualization tools, and audit methodologies to support laboratory quality systems and regulatory readiness.</p>
-      <p>
-        <strong>Phone:</strong> (904) 316-3830<br>
-        <strong>Email:</strong> pmorris1898@gmail.com<br>
-        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/peterkmorris">peterkmorris</a><br>
-        <strong>GitHub:</strong> <a href="https://github.com/Pmorris1898">Pmorris1898</a><br>
-      </p>
-      <p>
+    <main class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Quality Assurance professional with 5+ years of laboratory and data review experience in regulated environments. Proven track record in GMP/GLP compliance, internal audits, SOP development, and regulatory data submission. Adept in using LIMS, data visualization tools, and audit methodologies to support laboratory quality systems and regulatory readiness.</p>
+        <p>
+          <strong>Phone:</strong> (904) 316-3830<br>
+          <strong>Email:</strong> pmorris1898@gmail.com<br>
+          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/peterkmorris">peterkmorris</a><br>
+          <strong>GitHub:</strong> <a href="https://github.com/Pmorris1898">Pmorris1898</a><br>
+        </p>
         <a class="btn btn-primary" href="Peter Morris - QA Analyst Resume - 06-2025.pdf" download>Download Resume</a>
-      </p>
-    </section>
+      </section>
 
-    <section id="experience" class="container mt-5">
-      <h2>Professional Experience</h2>
+      <section id="experience">
+        <h2>Professional Experience</h2>
 
-      <h4>McKinney Specialty Labs — QA Analyst</h4>
-      <p><em>Richmond, VA | Jan 2024 – Present</em></p>
-      <ul>
-        <li>Conduct internal audits and ensure compliance with GMP, GLP, FDA, and ISO standards.</li>
-        <li>Revise SOPs, audit checklists, and QMS documents.</li>
-        <li>Analyze trends, prepare CAPAs, and support inspections.</li>
-      </ul>
+        <h4>McKinney Specialty Labs — QA Analyst</h4>
+        <p><em>Richmond, VA | Jan 2024 – Present</em></p>
+        <ul>
+          <li>Conduct internal audits and ensure compliance with GMP, GLP, FDA, and ISO standards.</li>
+          <li>Revise SOPs, audit checklists, and QMS documents.</li>
+          <li>Analyze trends, prepare CAPAs, and support inspections.</li>
+        </ul>
 
-      <h4>Enthalpy Analytical — Analyst II / QA Analyst</h4>
-      <p><em>Richmond, VA | Mar 2020 – Jan 2024</em></p>
-      <ul>
-        <li>Reviewed SOPs and technical documentation for FDA submission.</li>
-        <li>Monitored compliance metrics and supported CAPA initiatives.</li>
-        <li>Upheld ISO 17025 standards through continuous QA monitoring.</li>
-      </ul>
+        <h4>Enthalpy Analytical — Analyst II / QA Analyst</h4>
+        <p><em>Richmond, VA | Mar 2020 – Jan 2024</em></p>
+        <ul>
+          <li>Reviewed SOPs and technical documentation for FDA submission.</li>
+          <li>Monitored compliance metrics and supported CAPA initiatives.</li>
+          <li>Upheld ISO 17025 standards through continuous QA monitoring.</li>
+        </ul>
 
-      <h4>IEH Laboratories — Microbiology Laboratory Analyst</h4>
-      <p><em>Richmond, VA | Mar 2019 – May 2020</em></p>
-      <ul>
-        <li>Performed QA-reviewed pathogen testing using PCR and LIMS systems.</li>
-        <li>Ensured data traceability and verified accuracy for client reports.</li>
-      </ul>
-    </section>
+        <h4>IEH Laboratories — Microbiology Laboratory Analyst</h4>
+        <p><em>Richmond, VA | Mar 2019 – May 2020</em></p>
+        <ul>
+          <li>Performed QA-reviewed pathogen testing using PCR and LIMS systems.</li>
+          <li>Ensured data traceability and verified accuracy for client reports.</li>
+        </ul>
+      </section>
 
-    <section id="skills" class="container mt-5">
-      <h2>Skills</h2>
-      <ul class="row">
-        <li class="col-md-4">GMP / GLP / ISO Standards</li>
-        <li class="col-md-4">Internal & External Auditing</li>
-        <li class="col-md-4">Quality Systems & Compliance</li>
-        <li class="col-md-4">SOP Development & Review</li>
-        <li class="col-md-4">LIMS & Lab Automation</li>
-        <li class="col-md-4">CAPA Implementation</li>
-        <li class="col-md-4">Root Cause Analysis (RCA)</li>
-        <li class="col-md-4">Regulatory Submissions (FDA)</li>
-        <li class="col-md-4">Statistical Tools (Excel, SQL, Prism)</li>
-      </ul>
-    </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="row">
+          <ul class="col-md-6">
+            <li>GMP / GLP / ISO Standards</li>
+            <li>Internal & External Auditing</li>
+            <li>Quality Systems & Compliance</li>
+            <li>SOP Development & Review</li>
+            <li>LIMS & Lab Automation</li>
+          </ul>
+          <ul class="col-md-6">
+            <li>CAPA Implementation</li>
+            <li>Root Cause Analysis (RCA)</li>
+            <li>Regulatory Submissions (FDA)</li>
+            <li>Statistical Tools (Excel, SQL, Prism)</li>
+          </ul>
+        </div>
+      </section>
 
-    <section id="education" class="container mt-5">
-      <h2>Education</h2>
-      <h4>Bachelor of Science in Bio-Medical Science</h4>
-      <p><em>Florida State College at Jacksonville | August 2017</em></p>
-      <p>Focus on biological research, biostatistics, and laboratory-based curriculum. Member of STEM Club and Programming/Web Development Club.</p>
+      <section id="education">
+        <h2>Education</h2>
+        <h4>Bachelor of Science in Bio-Medical Science</h4>
+        <p><em>Florida State College at Jacksonville | August 2017</em></p>
+        <p>Focus on biological research, biostatistics, and laboratory-based curriculum. Member of STEM Club and Programming/Web Development Club.</p>
 
-      <h4>Associate of Arts in Biology</h4>
-      <p><em>University of North Florida | August 2010</em></p>
-      <p>Member of Pre-Medical/Pharmacy Club and Engineering Club.</p>
-    </section>
+        <h4>Associate of Arts in Biology</h4>
+        <p><em>University of North Florida | August 2010</em></p>
+        <p>Member of Pre-Medical/Pharmacy Club and Engineering Club.</p>
+      </section>
 
-    <section id="contact" class="container mt-5">
-      <h2>Contact Me</h2>
-      <p>If you'd like to connect or request my resume, feel free to reach out:</p>
-      <ul>
-        <li>Email: <a href="mailto:pmorris1898@gmail.com">pmorris1898@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/peterkmorris">peterkmorris</a></li>
-      </ul>
-    </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect or request my resume, feel free to reach out:</p>
+        <ul>
+          <li>Email: <a href="mailto:pmorris1898@gmail.com">pmorris1898@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/peterkmorris">peterkmorris</a></li>
+        </ul>
+      </section>
+    </main>
 
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="text-center">
       <p>&copy; 2025 Peter Morris. All Rights Reserved.</p>
     </footer>
+
+    <!-- Bootstrap JS (Optional for navbar toggle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
